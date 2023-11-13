@@ -198,7 +198,8 @@ body{
 
 .module_image{
     height: 818px;
-    width: 1192px;
+    width: 90%;
+    max-width: 1192px;
     /* border: 4px solid var(--border-button, #3A3A3C); */
     margin-top: 60px;
     margin-left: calc(50%-600px);
