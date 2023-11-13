@@ -1,1 +1,81 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <title>iProduct-让产品在任何时刻都能展现最佳状态，每个细节都充满设计感</title>
+</head>
+<body>
+<script>
+    window.addEventListener('scroll', function() {
+    const navbar = document.querySelector('.nav'); // 获取导航元素
+    if(window.scrollY > 240) {
+        navbar.classList.add('scrolled'); // 添加滚动样式
+        document.querySelector('.logo').style.opacity = '0';
+        document.querySelector('.join_button_1').style.opacity = '0';
+    } else {
+        navbar.classList.remove('scrolled'); // 移除滚动样式
+        document.querySelector('.logo').style.opacity = '1';
+        document.querySelector('.join_button_1').style.opacity = '1';
+    }
+    });
+</script>
+
+
+<div class="header">     
+    <div class="logo">iProduct</div>     
+    <ul class="nav">         
+        <li><a href="#anchor1">截图美化</a></li>         
+        <li><a href="#anchor2">操作录屏</a></li>         
+        <li><a href="#anchor3">AI 视频</a></li>         
+    </ul>     
+    <a class="join_button_1" href="https://iproduct.feishu.cn/share/base/form/shrcnlUrRC1BTOg6i6m2ofQcF2f">加入内测</a>
+</div> 
+
+<div class="container">
+
+</div>
+
+<div class="content">
+    <h1 class="h1_title">何时都要美如画</h1>
+    <p class="description">让产品在任何时刻都能展现最佳状态，<br>每个细节都充满设计感</p>
+    <a class="join_button_2" href="https://iproduct.feishu.cn/share/base/form/shrcnlUrRC1BTOg6i6m2ofQcF2f">加入内测名单</a>
+</div>
+
+
+<div class="module" id="anchor1">
+    <h1 class="module_title">截图美化</h1>
+    <p class="module_description">不需要使用专业的设计工具，每个人都可以让你的截图变的像设计图一样高颜值</p>
+    <div class="module_image">
+    <img src="Group 11.png">
+    </div>
+
+</div>
+
+<div class="module" id="anchor2">
+    <h1 class="module_title">操作录屏</h1>
+    <p class="module_description">随心的尽情展示，让工具来帮你生成完美的演示视频</p>
+    <div class="module_image">
+    <img src="Group 12.png">
+    </div>
+
+</div>
+
+<div class="module" id="anchor3">
+    <h1 class="module_title">AI 视频</h1>
+    <p class="module_description">分分钟为你的产品和功能制作产品宣传视频，之前想都不敢想</p>
+    <div class="module_image">
+    <img src="Group 13.png">
+    </div>
+
+</div>
+
+<div class="footer">
+<p>© 2023 iProduct.cc</p>
+</div>
+
+
+</body>
+</html>
