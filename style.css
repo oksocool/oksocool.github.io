@@ -242,6 +242,7 @@ body{
 
 
 @media screen and (max-width: 560px) {
-.nav {
-display: none;
+    .nav {
+    display: none;
+    }
 }
